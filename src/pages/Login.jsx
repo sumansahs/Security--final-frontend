@@ -32,7 +32,7 @@ const Login = () => {
     }
   };
 
-  // Inline styles inline 
+  // Inline styles 
   const containerStyle = {
     display: "flex",
     justifyContent: "center",
