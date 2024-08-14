@@ -65,7 +65,7 @@ const Register = () => {
     if (!validatePassword(password)) {
       return;
     }
-
+message////
     if (password !== confirmPassword) {
       toast.error("Password and confirmation password don't match");
       return;
