@@ -31,6 +31,7 @@ const Register = () => {
       3: { strength: "Strong", color: "blue", percent: 100 },
       4: { strength: "Very Strong", color: "green", percent: 100 }
     };
+    ///password 
 
     setPasswordStrength(strengthData[score] || { strength: "None", color: "black", percent: 0 });
 
