@@ -236,6 +236,7 @@ const Register = () => {
               placeholder="Confirm your password" 
               required 
             />
+            
           </div>
           <button style={buttonStyle} type="submit">Submit</button>
           <p style={{ marginTop: '1rem', textAlign: 'center' }}>
