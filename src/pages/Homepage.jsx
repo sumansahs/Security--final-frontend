@@ -33,6 +33,7 @@ const HomePage = () => {
     });
     setProducts(filteredUsers);
   };
+  ///home page 
 
   const addToCart = (index) => {
     if (!userData) {
