@@ -52,7 +52,7 @@ const HomePage = () => {
         orderId: index.toString(),
         quantity: cartValue,
       };
-
+/// create order
       create_order(orderData)
         .then((res) => {
           if (res.data.success === false) {
