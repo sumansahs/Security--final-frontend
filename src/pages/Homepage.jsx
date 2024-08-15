@@ -79,7 +79,7 @@ const HomePage = () => {
       toast.error("Item is already in the cart!");
     }
   };
-
+/// must be login
   const addToFavorites = (index) => {
     const productToAdd = products[index];
     const favoriteProducts = JSON.parse(localStorage.getItem("favoriteProducts")) || [];
